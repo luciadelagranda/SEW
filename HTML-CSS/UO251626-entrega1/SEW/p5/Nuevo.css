@@ -1,0 +1,173 @@
+
+
+/* especificidad: 001 */
+body {
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: #818181;
+    background-color: #F7F7F7;
+}
+
+/* especificidad: 001 */
+h1 {
+    background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=0de7e6acd1e514330b56a3506e507f05d&authkey=AfSRnVkzUW4SILnDMzMZQ54&e=7b4270698cea4fc2890caf66243c7d8a");
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+    font: 50px Castellar, sans-serif;
+    border-style: dashed;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: white;
+}
+
+h2{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Castellar, sans-serif;
+    background: #464C4C;
+    color: white;
+}
+
+
+/* especificidad: 001 */
+h3{
+    color: #169185;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* especificidad: 011 */
+p:nth-child(1){ font: 20px Calibri, sans-serif; }
+/* especificidad: 011 */
+p:nth-child(3) { color: palevioletred;
+font: 400 15px Comic Sans MS, sans-serif;}
+/* especificidad: 011 */
+p:nth-child(4) { color: purple;}
+
+/*especificidad: 001*/
+p{
+    color: black;
+    font-size: 15px;
+}
+
+/* especificidad: 001 */
+ul{
+    list-style: square;
+    font-style: italic;
+}
+
+/* especificidad: 001 */
+li{
+    color: black;
+}
+
+/* especificidad:001 */
+dt{
+    color: #21A68D;
+    text-transform: uppercase;
+    font: 500 19px Comic Sans MS, sans-serif;
+}
+
+/* especificidad:011 */
+a:link{
+    text-decoration: none;
+    color: #346D6C;
+}
+
+/* especificidad:011 */
+a:visited{
+    color: #9265BD;
+}
+
+/* especificidad: 011 */
+a:hover{
+    text-decoration: none;
+    color: #35A194;
+    font-weight: bold;
+}
+
+/*especificidad: 001*/
+nav a{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #C6BFB9;
+    
+}
+
+/*especificidad: 001*/
+nav{
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #C6BFB9;
+}
+
+/*especificidad: 001*/
+table{
+    width: 100%;
+    border: 1px solid #C6BFB9;
+    border-collapse: collapse;
+}
+
+/*especificidad: 001*/
+tr, td{
+   width: 1%;
+   text-align: center;
+   vertical-align: center;
+   border: 1px solid #C6BFB9;
+   background-color: lightseagreen;
+   color: white;
+   border-color: aqua;
+   font-size: 17px;
+}
+
+/*especificidad: 001*/
+section{
+    background-color: #F7F7F7;
+}
+
+/*especificidad: 001*/
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-style: dashed;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  border-color: white;
+}
+
+/*especificidad: 001*/
+video{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/*especificidad: 001*/
+audio{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/*especificidad: 001*/
+li img{
+    display:block;
+    width: 360px;
+    height: 500px;
+    margin: 10px auto;
+}
+
+/*especificidad: 011*/
+nav a:nth-child(8){
+    border-right: 0px;
+}

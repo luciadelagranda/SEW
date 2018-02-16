@@ -1,0 +1,57 @@
+/*0100*/
+#map {
+    height: 100%;
+    width: 100%;
+}
+/*0001*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+/*0001*/
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+
+/*0001*/
+button {
+  height: 10%;
+  width: 50%;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #FF98DD;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+
+}
+
+/* 0001*/
+h1{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+    background-image:  url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+
+.button{
+    text-align: center;
+}

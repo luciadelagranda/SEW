@@ -1,0 +1,53 @@
+body{
+    background-color: #FAFAFA;
+}
+
+
+/* especificidad: 001 */
+h1 {
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+}
+
+/* especificidad: 011 */
+h1:nth-child(1){
+    padding-bottom: 12px;
+    text-shadow: 2px 2px 20px #02BEC4;
+    background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+/* especificidad: 001 */
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+/* especificidad: 011 */
+h2:nth-child(1){
+    background-size: 225px;
+    color: #02BEC4;
+    text-transform: uppercase;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+}
+
+/* especificidad: 001 */
+h2, h3{
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font: 30px Arial, sans-serif;
+    margin-left: 10px;
+}
+/* especificidad: 001 */
+ul,li{
+    font: 15px Arial, sans-serif;
+    
+}

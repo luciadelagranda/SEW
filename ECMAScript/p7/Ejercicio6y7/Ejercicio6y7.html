@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram</title>
+    <meta charset="utf-8">
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="Ejercicio6y7.js"></script>
+    <link rel="stylesheet" href="Ejercicio6y7.css"/>
+  </head>
+  <body>
+    <div class="button">
+    <button id = "cargarPrograma" onclick = "programa.iniciar()">Cargar Programa</button>
+    </div>
+      
+    <div class="p" hidden>
+    <h1>Instagram de:</h1>
+    <a class="enlace"></a>
+    <p class="perfil"></p>
+    </div>
+      
+    <div class="likes" hidden>  
+    <h2>Esta es su foto con mayor número de likes de entre sus 10 últimas:</h2>
+    <ul id="instagram" class="foto"></ul>
+    </div>
+      
+    <div class="localizacion" hidden>  
+    <h2>Localización donde fue realizada la fotografía:</h2>
+    </div>
+    <div id="map"></div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMiF1LcX9hJOUd7OiOowEAdrkmgFz-k1M&callback=initMap">
+    </script>
+    
+    <div class="hash" hidden>
+     <h2 class="hashtag">Fotos hechas con el hashtag de la foto: </h2>
+    <ul id="tag" class="fotoTags"></ul>
+    </div>
+
+<footer hidden>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+    </body>
+</html>

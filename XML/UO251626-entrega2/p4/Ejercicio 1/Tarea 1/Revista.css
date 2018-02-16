@@ -1,0 +1,59 @@
+body{
+    background-color: #FAFAFA;
+}
+
+
+/* especificidad: 001 */
+h1 {
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+}
+
+h2{
+    background-size: 225px;
+    background-color: skyblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+}
+
+ul,li{
+    text-align: center;
+    font: 23px Arial, sans-serif;
+    list-style: none;
+}
+
+dt{
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font: 25px Arial, sans-serif;
+    text-shadow: 1px 1px 0px darkgray;
+    padding-left: 10px;
+}
+
+dd{
+    color: darkgrey;
+    font: 23px Arial,sans-serif;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px darkgray;
+}
+
+/*especificidad: 001*/
+video{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+p{
+  font: 17px Arial, sans-serif;
+  color: gray;
+  padding-left: 10px;
+}

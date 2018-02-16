@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Recetas.css"?>
+<?xml-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<!DOCTYPE recetas SYSTEM "Recetas.dtd">
+<recetas>
+	<receta>
+		<nombre>Palmeritas de hojaldre</nombre>
+		<tipo plato="Postre"/>
+        <ingredientes>
+		<ingrediente nombre="lamina hojaldre" cantidad="1" medida="lamina"/>
+		<ingrediente nombre="azúcar normal" cantidad="200" medida="g"/>
+        </ingredientes>
+		<calorias kcal="1"/>
+        <pasos>
+			<paso numero="1" descripcion="Poner azúcar sobre una mesa plana y estirar sibre el la lámina de hojaldre"/>
+			<paso numero="2" descripcion="Estirar con un rodillo, sin hacer mucha fuerza, la lamina de hojaldre y echar más azúcar"/>
+			<paso numero="3" descripcion="Doblar y volver a echar más azúcar"/>
+			<paso numero="4" descripcion="Cortar en trozos no más grandes de 1 cm y poner a precalentar el horno a 210º"/>
+			<paso numero="5" descripcion="Meter las palmeras en el horno durante 20 min ,aproximadamente, dejando el espacio suficiente para que crezcan y colocandolas sobre un papel de hornear"/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="30"/>
+        <elementos>
+			<elemento nombre="horno"/>
+			<elemento nombre="rodillo de masa"/>
+        </elementos>
+		<origen>Agenda de Mr.Wonderful</origen>
+	</receta>
+	<receta>
+		<nombre>Pollo Satay</nombre>
+		<tipo plato="Entrante"/>
+        <ingredientes>
+		<ingrediente nombre="Pollo" cantidad="1 " medida="kg"/>
+		<ingrediente nombre="Leche" cantidad="400" medida="ml"/>
+		<ingrediente nombre="curry en polvo" cantidad="1" medida="cucharada"/>
+		<ingrediente nombre="cúrcuma en polvo" cantidad="1" medida="cuharada"/>
+		<ingrediente nombre="semillas de cilantro" cantidad="1/2" medida="cuharada"/>
+		<ingrediente nombre="semillas de comino" cantidad="1/2" medida="cuharada"/>
+		<ingrediente nombre="sal" cantidad="1" medida="cuharadita"/>
+        </ingredientes>
+		<calorias kcal="45"/>
+        <pasos>
+			<paso numero="1" descripcion="En una sartén tostamos el cilantro y el comino, cuando empiece a oler bien lo pasamos a un mortero y lo machacamos bien hasta conseguir un polvo fino. Reservamos para luego."/>
+			<paso numero="2" descripcion="Cortamos el pollo en trocitos finos y lo ponemos en un bol."/>
+			<paso numero="3" descripcion="Le añadimos el cilantro y comino en polvo, el curry, la cúrcuma, la sal, la pimienta blanca y la leche en polvo. Lo mezclamos todo bien, lo tapamos y dejamos marinar en la nevera durante al menos 2 horas o mejor toda la noche."/>
+			<paso numero="4" descripcion="Lo sacamos y hacemos nuestros pinchitos, colocando unos cuantos trocitos de pollo por pinchito."/>
+			<paso numero="5" descripcion="Y ya está listo para la plancha, lo cocinamos bien por ámbos lados y ya está listo para servir acompañado de su salsa Satay."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="240"/>
+        <elementos>
+			<elemento nombre="sartén"/>
+			<elemento nombre="mortero"/>
+			<elemento nombre="bol"/>
+			<elemento nombre="pinchos de madera"/>
+        </elementos>
+		<origen>http://www.kwanhomsai.com/pollo-satay-estilo-thai/</origen>
+	</receta>
+	<receta>
+		<nombre>Salsa Satay</nombre>
+		<tipo plato="Acompañante"/>
+        <ingredientes>
+		<ingrediente nombre="pasta de tamarindo" cantidad="3" medida="cucharada"/>
+		<ingrediente nombre="Leche" cantidad="400" medida="ml"/>
+		<ingrediente nombre="curry Massaman" cantidad="2" medida="cucharada"/>
+		<ingrediente nombre="azúcar de palma" cantidad="100" medida="g"/>
+		<ingrediente nombre="cacahuetes tostados machacados" cantidad="50" medida="g"/>
+		<ingrediente nombre="sal" cantidad="1/2" medida="cucharadita"/>
+        </ingredientes>
+		<calorias kcal="40"/>
+        <pasos>
+			<paso numero="1" descripcion="En un cazo calentamos 1/4 de la leche de coco y la pasta de curry sin dejar de remover hasta que salga su aceite."/>
+			<paso numero="2" descripcion="Añadimos el resto de la leche de coco, los cacahuetes tostados, la pasta de tamarindo, el azúcar de palma y la salsa de pescado si es necesario."/>
+			<paso numero="3" descripcion="Cocinamos un par de minutos hasta que todo quede bien incorporado y ya está lista para acompañar al pollo Satay."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="20"/>
+        <elementos>
+			<elemento nombre="sartén"/>
+			<elemento nombre="bol"/>
+        </elementos>
+		<origen>http://www.kwanhomsai.com/salsa-satay-estilo-thai/</origen>
+	</receta>
+	<receta>
+		<nombre>Hamburgesa vegana de garbanzo y calabacín</nombre>
+		<tipo plato="Segundo"/>
+        <ingredientes>
+		<ingrediente nombre="garbanzos cocidos" cantidad="300" medida="g"/>
+		<ingrediente nombre="calabacín grande" cantidad="1/4" medida="pieza"/>
+		<ingrediente nombre="semillas de lino molidas" cantidad="3" medida="cucharada"/>
+		<ingrediente nombre="curry" cantidad="1" medida="cucharada"/>
+		<ingrediente nombre="sal" cantidad="1" medida="cucharada"/>
+        </ingredientes>
+        <calorias kcal="40"/>
+        <pasos>
+			<paso numero="1" descripcion="Deberemos triturar los garbanzos y salarlos al gusto"/>
+			<paso numero="2" descripcion="Lavamos el calabacín y trituramos también. Mezclamos y añadimos curry al gusto. "/>
+			<paso numero="3" descripcion=" Amasamos y vamos añadiendo poco a poco las semillas de lino molidas y la harina."/>
+			<paso numero="4" descripcion="Cuando tengamos una masa homogénea separamos en bolas y después aplastamos las formar las hamburguesas veganas."/>
+			<paso numero="5" descripcion="Después podemos freír o bien reservar en la nevera o congelador. Yo siempre lo hago envolviendo de manera individual las hamburguesas en film transparente."/>
+		</pasos>
+        <dificultad grado="2"/>
+		<tiempo minutos="20"/>
+        <elementos>
+			<elemento nombre="sartén"/>
+			<elemento nombre="bol"/>
+		</elementos>
+        <origen>http://beginveganbegun.es/2015/11/28/hamburguesas-veganas-de-garbanzo-y-lentejas/</origen>
+	</receta>
+	<receta>
+		<nombre>Tarta de judías y calabaza</nombre>
+		<tipo plato="Postre"/>
+        <ingredientes>
+		<ingrediente nombre="Judías" cantidad="2" medida="taza"/>
+		<ingrediente nombre="Arroz integral" cantidad="2" medida="taza"/>
+		<ingrediente nombre="Calabaza" cantidad="1/2" medida="kg"/>
+		<ingrediente nombre="Pimiento rojo" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Cebolla" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Ajo" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Perejil" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Oregano" cantidad="1" medida="cucharadita"/>
+		<ingrediente nombre="Aceite de oliva" cantidad="10" medida="ml"/>
+		<ingrediente nombre="Sal" cantidad="1" medida="cucharadita"/>
+        </ingredientes>
+        <calorias kcal="89"/>
+        <pasos>
+			<paso numero="1" descripcion="Primero trituramos las judías aún calientes después de haberlas cocido y colocamos en un bol."/>
+			<paso numero="2" descripcion="Aparte mezclamos el arroz también cocido y caliente, el ajo y el perejil picados. Mezclar bien, condimentando con la sal y el orégano."/>
+			<paso numero="3" descripcion="Extender con las manos en un molde aceitado, dejando un borde alrededor para contener el relleno. Hornear a temperatura alta unos 10 minutos. Retirar y servir con una guarnición de vegetales crudos."/>
+			<paso numero="4" descripcion="Aparte untar una cacerola con el aceite y colocar adentro la cebolla, el pimiento rojo y la calabaza cortada en trocitos pequeños. Tapar y cocinar a fuego suave unos 10 minutos. Retirar e incorporar las judías cocidas del bol y procesadas."/>
+			<paso numero="5" descripcion="Condimentar, mezclar bien y verter sobre la masa base. Dejr reposar y a disfrutar de la tarta de judías y calabaza."/>
+		</pasos>
+        <dificultad grado="3"/>
+		<tiempo minutos="160"/>
+        <elementos>
+			<elemento nombre="sartén"/>
+			<elemento nombre="bol"/>
+        </elementos>
+		<origen>https://paravegetarianos.com/recetas-vegetarianas/tarta-de-judias-y-calabaza_rv1234</origen>
+	</receta>
+	<receta>
+		<nombre>Cuajada</nombre>
+		<tipo plato="Postre"/>
+        <ingredientes>
+		<ingrediente nombre="Leche" cantidad="1/2" medida="l"/>
+		<ingrediente nombre="Azúcar" cantidad="2" medida="cucharada"/>
+		<ingrediente nombre="Gotas Cuajo" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Hojas de menta" cantidad="2" medida="pieza"/>
+        </ingredientes>
+		<calorias kcal="200"/>
+        <pasos>
+			<paso numero="1" descripcion="Calienta la leche en una cazuela. Deja que se temple a 37ºC ."/>
+			<paso numero="2" descripcion="Vierte un par de gotas de cuajo en cada cuenco y añade la leche."/>
+			<paso numero="3" descripcion="Deja que cuaje sin mover los recipientes."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="20 "/>
+        <elementos>
+			<elemento nombre="bol"/>
+			<elemento nombre="cacuela"/>
+        </elementos><origen>https://www.hogarmania.com/cocina/recetas/postres/201108/cuajada-9646.html</origen>
+	</receta>
+	<receta>
+		<nombre>Tortilla de patatas</nombre>
+		<tipo plato="Principal"/>
+        <ingredientes>
+		<ingrediente nombre="Huevo" cantidad="6" medida="pieza"/>
+		<ingrediente nombre="Patatas" cantidad="600" medida="g"/>
+		<ingrediente nombre="Cebolla" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Pimiento Verde" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Aceite oliva" cantidad="2" medida="vasos"/>
+		<ingrediente nombre="Sal" cantidad="1" medida="cuharadita"/>
+		<ingrediente nombre="Hoja perejil" cantidad="1" medida="pieza"/>
+        </ingredientes>
+		<calorias kcal="129"/>
+        <pasos>
+			<paso numero="1" descripcion="Pela y pica la cebolla en dados medianos."/>
+			<paso numero="2" descripcion="Limpia el pimiento verde, retírale el tallo y las pepitas y córtalo en dados."/>
+			<paso numero="3" descripcion="Si las patatas estuvieran sucias, pásalas por agua. Pélalas, córtalas por la mitad a lo largo y después corta cada trozo en medias lunas finas de 1/2 centímetros."/>
+			<paso numero="4" descripcion="Introduce todo en la sartén, sazona a tu gusto y fríe a fuego suave durante 25-30 minutos."/>
+			<paso numero="5" descripcion="Retira la fritada y escúrrela. Pasa el aceite a un recipiente y resérvalo. Limpia la sartén con papel absorbente de cocina."/>
+			<paso numero="6" descripcion="Casca los huevos, colócalos en un recipiente grande y bátelos. Sálalos a tu gusto, agrega la fritada de patatas, cebolla y pimiento y mezcla bien."/>
+			<paso numero="7" descripcion="Coloca la sartén nuevamente en el fuego, agrega un chorrito del aceite reservado y agrega la mezcla. Remueve un poco con una cuchara de madera y espera (20 segundos) a que empiece a cuajarse."/>
+			<paso numero="8" descripcion="Separa los bordes, cubre la sartén con un plato de mayor diámetro que la sartén y dale la vuelta."/>
+			<paso numero="9" descripcion="Échala de nuevo para que cuaje por el otro lado."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="20 "/>
+        <elementos>
+			<elemento nombre="bol"/>
+			<elemento nombre="sartén"/>
+        </elementos>
+		<origen>https://www.hogarmania.com/cocina/recetas/postres/201108/cuajada-9646.html</origen>
+	</receta>
+	<receta>
+		<nombre>Tarta de queso</nombre>
+		<tipo plato="Postre"/>
+        <ingredientes>
+		<ingrediente nombre="Nata liquida" cantidad="150" medida="g"/>
+		<ingrediente nombre="Queso" cantidad="300" medida="g"/>
+		<ingrediente nombre="Leche" cantidad="200" medida="ml"/>
+		<ingrediente nombre="Azúcar" cantidad="160" medida="g"/>
+		<ingrediente nombre="Margarina" cantidad="70" medida="g"/>
+		<ingrediente nombre="Mermelada" cantidad="10" medida="cucharada"/>
+		<ingrediente nombre="Cuajada" cantidad="2" medida="sobres"/>
+		<ingrediente nombre="Galletas maría" cantidad="1" medida="paquete"/>
+            </ingredientes>
+		<calorias kcal="120"/>
+        <pasos>
+			<paso numero="1" descripcion="Una vez que se tienen preparados todos los ingredientes el primer paso en esta receta para la tarta de queso sin horno comienza con la colocación de todos los ingredientes, (a excepción de las galletas y la margarina), en una batidora para mezclar hasta que tengan una consistencia similar a la del puré."/>
+			<paso numero="2" descripcion="A continuación debemos colocar esta mezcla al fuego hasta que rompa el hervor; una vez hecho esto hay que retirar del fuego."/>
+			<paso numero="3" descripcion="Ahora, hay que colocar las galletas en la batidora junto con la margarina y mezclar."/>
+			<paso numero="4" descripcion="Al terminar esto debemos extender la mezcla sobre la base de un molde asegurándonos de que se encuentre bien prensando."/>
+			<paso numero="5" descripcion="Una vez hecho esto se tiene que verter la mezcla por encima y luego colocar en la nevera para que se enfrié."/>
+			<paso numero="6" descripcion="Cuando esta preparación ya se encuentra fría, lo que sigue ahora es cubrirla con la mermelada del sabor que se prefiera y listo, de esta forma tan sencilla se puede hacer una tarta de queso sin horno y en poco tiempo disfrutar con nuestros invitados."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="160"/>
+        <elementos>
+			<elemento nombre="molde tarta"/>
+			<elemento nombre="batidora"/>
+			<elemento nombre="nevera"/>
+		</elementos>
+        <origen>https://www.tartadequeso.org/tarta-de-queso-sin-horno-receta/</origen>
+	</receta>
+	<receta>
+		<nombre>Tortilla patata vegana</nombre>
+		<tipo plato="Segundo"/>
+        <ingredientes>
+		<ingrediente nombre="Aceite oliva" cantidad="3" medida="cucharadas"/>
+		<ingrediente nombre="Patata" cantidad="4" medida="pieza"/>
+		<ingrediente nombre="Tomate" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Cebolla" cantidad="1/2" medida="pieza"/>
+		<ingrediente nombre="Tofu" cantidad="170" medida="g"/>
+		<ingrediente nombre="Harina garbanzos" cantidad="1/2" medida="taza"/>
+		<ingrediente nombre="Leche de almendras" cantidad="1/2" medida="taza"/>
+		<ingrediente nombre="Ajo en polvo" cantidad="1" medida="cucharadita"/>
+        <ingrediente nombre="Cúrcuma" cantidad="1/2" medida="cucharadita"/>
+        <ingrediente nombre="Cebolla en polvo" cantidad="1/4" medida="cucharadita"/>
+            </ingredientes>
+		<calorias kcal="120"/>
+        <pasos>
+			<paso numero="1" descripcion="Precaliente el horno a 200 grados C. Calentar una cucharada de aceite de oliva en una sartén a fuego medio durante un minuto. Añadir la cebolla y rehogar hasta que esté transparente."/>
+			<paso numero="2" descripcion="A continuación debemos colocar esta mezcla al fuego hasta que rompa el hervor; una vez hecho esto hay que retirar del fuego.Añadir la patata cortada en cubitos, mezclar y cubrir con una tapa. Cocer durante unos 10 minutos, revolviendo de vez en cuando para evitar que se pegue. Añadir un poco de agua o caldo de verduras a la sartén y baja el fuego. Una vez que las papas pueden ser perforados fácilmente con un tenedor, retirar del fuego."/>
+			<paso numero="3" descripcion="Mientras que las patatas están cocinando, hacer la masa. Aprieta suavemente el bloque de tofu liberar el exceso de agua. En una licuadora, combine el queso de soja, harina de garbanzos, leche de almendras, sal y especias. Mezcla hasta que quede suave. Vierte la mezcla en un tazón."/>
+			<paso numero="4" descripcion="Una vez que las papas se han cocinado, añadirlas a la masa y mezcla bien. Limpia con cuidado la sartén con una toalla de papel. Rociarlo con de aceite de oliva. Vierta la mezcla en la sartén y calentar a fuego medio. Si comienza a tener grandes burbujas en el medio, reduzca el fuego."/>
+			<paso numero="5" descripcion="Dejar cocer hasta que los bordes han comenzado a establecerse, unos 7-10 minutos. Trasladar al horno y dejar cocer durante 15 minutos. Un palillo insertado en el centro debe salir limpio. Retirar del horno y dejar enfriar sobre una rejilla durante unos 5 minutos."/>
+			<paso numero="6" descripcion="Una vez que ha tenido tiempo de enfriarse, pasa un cuchillo alrededor del borde para aflojar la tortilla de la sartén. Coloca un plato grande sobre la sartén y con mucho cuidado, voltear la sartén. Lista para servir."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="50"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Sarten"/>
+		</elementos>
+        <origen>http://www.recetasveganas.es/recetas/tortilla-de-patata-vegana/</origen>
+	</receta>
+	<receta>
+		<nombre>Lasaña vegana</nombre>
+		<tipo plato="Primero"/>
+        <ingredientes>
+		<ingrediente nombre="Calabacín grande" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Soja texturizada fina" cantidad="1" medida="tazon"/>
+		<ingrediente nombre="Espinacas" cantidad="2" medida="puñado"/>
+		<ingrediente nombre="Cebolla" cantidad="1" medida="pieza"/>
+		<ingrediente nombre="Salsa soja" cantidad="1" medida="cucharada"/>
+		<ingrediente nombre="Setas" cantidad="4" medida="piezas"/>
+		<ingrediente nombre="Sasa de tomate" cantidad="1/2" medida="cucharada"/>
+		<ingrediente nombre="Pimienta negra" cantidad="1/2" medida="cucharadita"/>
+        <ingrediente nombre="Pimentón" cantidad="1" medida="cucharadita"/>
+        <ingrediente nombre="Ajo en polvo" cantidad="1/4" medida="cucharadita"/>
+            </ingredientes>
+		<calorias kcal="70"/>
+        <pasos>
+			<paso numero="1" descripcion="En lugar de utilizar láminas de pasta, utilizaremos calabacín laminado. En este caso pelé el calabacín y lo partí por la mitad. Cada mitad la partimos a su vez en dos mitades a lo largo y estas serán las que laminemos con una mandolina."/>
+			<paso numero="2" descripcion="Calentar un tazón de agua y verter la soja texturizada fina con un chorrito de vinagre para quitar el amargor. Esperar unos 5 minutos hasta que se hidrate y después escurrir el líquido."/>
+			<paso numero="3" descripcion="Cortar en dados muy finos una cebolla y saltear en una sartén con caldo de verduras (así evitamos usar aceites). Mientras se hace la cebolla, cortar en dados pequeños las setas (o champiñones, al gusto) y añadir a la sartén."/>
+			<paso numero="4" descripcion="Cuando la cebolla y las setas reduzcan su volumen (unos 4 minutos), añadir la soja texturizada (añadir caldo de verduras para evitar que se pegue a ala sartén). Saltear unos dos minutos y sazonar con las hierbas provenzales, pimienta negra y pimentón. Saltear otro par de minutos y añadir la salsa de soja. Retirar del fuego y empezar a montar la lasaña."/>
+			<paso numero="5" descripcion="En un recipiente para lasaña, cubrir el fondo con láminas de calabacín. Poner una capa de espinacas crudas  (1 puñado aproximadamente), añadir la capa siguiente con el salteado de soja y acabar con una fina capa de salsa de tomate."/>
+			<paso numero="6" descripcion="Añadir otra capa con láminas de calabacín y repetir el proceso anterior hasta que no quede más salteado. Cubrir con una última capa de calabacín laminado y añadir salsa de tomate.Para el toque final, añadir semillas de cáñamo o semillas de chía.Hornear durante 15 minutos a unos 200ºC, dejar enfriar unos minutos y servir."/>
+        </pasos>
+		<dificultad grado="3"/>
+		<tiempo minutos="150"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Horno"/>
+            <elemento nombre="Utensilios cocina"/>
+		</elementos>
+        <origen>https://opcionvegana.wordpress.com/category/primer-y-segundo-plato/</origen>
+	</receta>
+    <receta>
+		<nombre>Ñoquis de patata veganos</nombre>
+		<tipo plato="Primero"/>
+        <ingredientes>
+		<ingrediente nombre="Patatas" cantidad="500" medida="g"/>
+		<ingrediente nombre="Harina de trigo" cantidad="150" medida="g"/>
+		<ingrediente nombre="Salsa a elegir" cantidad="12" medida="cucharadas"/>
+            </ingredientes>
+		<calorias kcal="90"/>
+        <pasos>
+			<paso numero="1" descripcion="Para cocer las patatas ponemos a calentar una olla con agua, calculando que las patatas deben quedar cubiertas. Cuando empiece a hervir echaremos las patatas con piel (para que no se deshagan). Hay que dejar cocerlas unos 40 minutos más o menos (dependiendo de su tamaña). Deben quedar bien cocidas, lo que comprobaremos pinchando un cuchillo."/>
+			<paso numero="2" descripcion="Una vez cocidas, pelamos las patatas aun calientes. Si las dejas enfriar se pelan peor. Pasamos las papas cocidas por un prensapuré, un pasapure o similar. También podemos desmenuzarlas finamente con un rallador y hacerlas puré con un tenedor. Este paso es importante para que la masa de nuestros ñoquis de patata quede bien homogénea."/>
+			<paso numero="3" descripcion="Añadimos la harina poco a poco mientras mezclamos la masa. Cuando hayamos añadido toda la harina amasaremos bien hasta conseguir una textura uniforme."/>
+			<paso numero="4" descripcion="Le damos forma de cilindro a la masa y la dejamos reposar 10 minutos tapada con un paño limpio."/>
+			<paso numero="5" descripcion="Sobre una superficie enharinada vamos cortando trozos de la masa y hacemos largas tiras cilíndricas de 1 dedo de ancho. Cortamos las tiras a una distancia de unos 2 cm para hacer cada 'gnocco'. Finalmente podemos darle la forma tradicional con la ayuda de un tenedor. Una manera es simplemente marcándoles unas estrías sobre la mesa. Otra manera es coger cada ñoqui y pasarlos uno a uno mientras lo giramos sobre los dientes del tenedor. De este modo, tendrán un hoyito por un lado y estrias por el otro. La razón de estas marcas es permitir que la salsa se impregne mejor en los ñoquis. En las cocinas italianas suele estar presente una tabla estriada para facilitar este trabajo."/>
+			<paso numero="6" descripcion="Ponemos a calentar agua en una olla y cuando entre en ebullición echamos los ñoquis. Si la olla no es suficientemente grande, habrá que hacerlo por tandas. Cuando empiecen a flotar estarán listos, por lo que iremos retirándolos con la ayuda de una espumadera y añadiremos la siguiente tanda, si es el caso. Les añadimos la salsa calentita y servimos inmediatamente."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="150"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Olla"/>
+            <elemento nombre="Utensilios cocina"/>
+            <elemento nombre="Pelador"/>
+		</elementos>
+        <origen>http://www.vegetarianismo.net/recetas/como-hacer-noquis-patata-veganos.php</origen>
+	</receta>
+    <receta>
+		<nombre>Queso crema a base de tofu</nombre>
+		<tipo plato="Entrante"/>
+        <ingredientes>
+		<ingrediente nombre="Tofu firme" cantidad="200" medida="g"/>
+		<ingrediente nombre="Hierbas provenzales" cantidad="1" medida="puñado"/>
+		<ingrediente nombre="Soja" cantidad="15" medida="ml"/>
+        <ingrediente nombre="Aceite oliva" cantidad="10" medida="ml"/>
+        <ingrediente nombre="Ajo" cantidad="1" medida="pieza"/>    
+        </ingredientes>
+		<calorias kcal="30"/>
+        <pasos>
+			<paso numero="1" descripcion="El proceso para conseguir nuestro queso es muy sencillo, ya que sólo tendremos que triturar todos los ingredientes en la batidora hasta que el tofu quede totalmente triturado y sin grumos. Nos quedará una textura de queso de untar."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="10"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Batidora"/>
+            <elemento nombre="Utensilios cocina"/>
+		</elementos>
+        <origen>http://delantaldealces.com/queso-crema-vegano-finas-hierbas/</origen>
+	</receta>
+    <receta>
+		<nombre>Bolitas de tofu</nombre>
+		<tipo plato="Entrante"/>
+        <ingredientes>
+		<ingrediente nombre="Tofu firme" cantidad="200" medida="g"/>
+		<ingrediente nombre="Mostaza" cantidad="1/2" medida="cucharada"/>
+		<ingrediente nombre="Soja" cantidad="30" medida="ml"/>
+        <ingrediente nombre="Azúcar moreno" cantidad="1" medida="cucharada"/>
+        <ingrediente nombre="Nueces molidas" cantidad="1" medida="puñado"/>    
+        </ingredientes>
+		<calorias kcal="81"/>
+        <pasos>
+			<paso numero="1" descripcion="Empezaremos hirviendo el tofu cortado en trozos grandes durante 10 minutos. Es mejor hervir el tofu ya cortado para que luego sea más fácil de colocar en el vaso de la trituradora."/>
+			<paso numero="2" descripcion="Escurrimos el tofu y lo dejamos enfriar. Cuando ya no queme, colocamos un trozo entre las palmas de las manos y lo aplastamos cuidadosamente para que suelte toda el agua posible. Hacemos lo mismo con el resto de trozos y los trituramos junto con la salsa de soja y la mostaza."/>
+			<paso numero="3" descripcion="Picamos las nueces en el mortero, o golpeándolas dentro de una bolsa. Una vez picadas, las mezclamos con el tofu y reservamos en la nevera hasta que la masa esté bien fría y haya cogido consistencia."/>
+			<paso numero="4" descripcion="Picamos las nueces en el mortero, o golpeándolas dentro de una bolsa. Una vez picadas, las mezclamos con el tofu y reservamos en la nevera hasta que la masa esté bien fría y haya cogido consistencia."/>
+			<paso numero="5" descripcion="Formamos bolitas con la masa de tofu. Deben de tener un tamaño no muy grande, adecuado para poderlas comer de un solo mordisco. Cuando tengamos formada la bolita, la rebozamos con las semillas de sésamo caramelizadas. Seguimos el mismo procedimiento hasta terminar la masa de tofu."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="10"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Batidora"/>
+            <elemento nombre="Utensilios cocina"/>
+            <elemento nombre="Sartén"/>
+            <elemento nombre="Mortero"/>
+		</elementos>
+        <origen>http://delantaldealces.com/queso-crema-vegano-finas-hierbas/</origen>
+	</receta>
+    <receta>
+		<nombre>Merluza a la cazuela</nombre>
+		<tipo plato="Segundo"/>
+        <ingredientes>
+		<ingrediente nombre="Vino blanco" cantidad="1/2" medida="l"/>
+		<ingrediente nombre="Almejas" cantidad="1" medida="docena"/>
+		<ingrediente nombre="Merluza" cantidad="1" medida="pieza"/>
+        <ingrediente nombre="Perejil picado" cantidad="1" medida="cucharada"/>
+        <ingrediente nombre="Harina" cantidad="2" medida="cucharada"/>   
+        <ingrediente nombre="Ajo" cantidad="2" medida="pieza"/>
+        <ingrediente nombre="Sal" cantidad="1/2" medida="cucharadita"/>
+        <ingrediente nombre="Aceite oliva" cantidad="2" medida="cucharada"/>   
+        </ingredientes>
+		<calorias kcal="255"/>
+        <pasos>
+			<paso numero="1" descripcion="En una cazuela poner 3 cucharadas de aceite de oliva a calentar. Añadir los dientes de ajo y cuando estén dorados, retirarlos. Bajar el fuego e incorporar las Cigalas y los Langostinos Pescanova. Marcar por ambos lados."/>
+            <paso numero="2" descripcion="Sazonar y enharinar los Corazones de Filete de Merluza Pescanova y acomodar en la cazuela. Añadir el vino blanco y completar con agua hasta cubrir por la mitad de los Corazones de Filete de Merluza. Dejar cocer a fuego lento 5 minutos, moviendo la cazuela de vez en cuando en forma de vaivén. Meter las almejas y seguir cociendo otros 5 minutos sin olvidar mover la cazuela de vez en cuando."/>
+			<paso numero="3" descripcion="Esparcir el perejil picado sobre la Merluza a la Cazuela con Marisco. Mover en vaivén, apagar el fuego, tapar y dejar reposar entre 2 y 3 minutos antes de servir."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="30"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Horno"/>
+            <elemento nombre="Utensilios cocina"/>
+            <elemento nombre="Cazuela"/>
+		</elementos>
+        <origen>https://www.pescanova.es/recetas/merluza-a-la-cazuela-con-marisco/</origen>
+	</receta>
+    <receta>
+		<nombre>Nuggets de pollo</nombre>
+		<tipo plato="Primero"/>
+        <ingredientes>
+		<ingrediente nombre="Pollo" cantidad="2" medida="pieza"/>
+		<ingrediente nombre="Queso" cantidad="175" medida="g"/>
+		<ingrediente nombre="Huevo" cantidad="2" medida="pieza"/>
+        <ingrediente nombre="Pan rallado" cantidad="4" medida="cucharada"/>
+        <ingrediente nombre="Harina de trigo" cantidad="4" medida="cucharada"/>   
+        <ingrediente nombre="Aceite oliva" cantidad="10" medida="cucharadas"/>
+        </ingredientes>
+		<calorias kcal="305"/>
+        <pasos>
+			<paso numero="1" descripcion="Limpiamos las pechugas de posibles restos de grasa y venitas que puedan tener y las cortamos en trozos de unos 2 cm. Pasamos los trozos de pollo por una picadora hasta que estén totalmente deshechos y formen una pasta."/>
+            <paso numero="2" descripcion="Mezclamos el pollo con el queso crema y la sal, hasta que esté bien integrado. Con la mano hacemos pequeñas porciones con esta masa."/>
+			<paso numero="3" descripcion="Vamos a empanar nuestros nuggets, en este caso el clásico rebozado, pasándolos por harina, huevo y pan rallado. La harina ayuda a que el huevo se adhiera mejor a la carne, y el huevo actúa como pegamento para fijar el pan rallado al nugget. Hay quien da una capa y hay quien prefiere usar dos. Lo mejor es rebozar en una sola capa para que el envoltorio del nugget no sea demasiado grueso. Así resultan más ligeros y absorben menos aceite en la fritura."/>
+            <paso numero="4" descripcion="Freir y servir."/>
+        </pasos>
+		<dificultad grado="1"/>
+		<tiempo minutos="30"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Freidora"/>
+            <elemento nombre="Utensilios cocina"/>
+		</elementos>
+        <origen>http://www.recetasderechupete.com/nuggets-de-pollo-caseros/9773/</origen>
+	</receta>
+    <receta>
+		<nombre>Carne plancha</nombre>
+		<tipo plato="Segundo"/>
+        <ingredientes>
+		<ingrediente nombre="Carne" cantidad="6" medida="pieza"/>
+		<ingrediente nombre="Ajo" cantidad="5" medida="g"/>
+		<ingrediente nombre="Cebolla" cantidad="2" medida="pieza"/>
+        <ingrediente nombre="Pimiento" cantidad="2" medida="pieza"/>
+        <ingrediente nombre="Sal" cantidad="1/4" medida="cucharada"/>   
+        <ingrediente nombre="Aceite oliva" cantidad="2" medida="cucharadas"/>
+        <ingrediente nombre="Pimienta" cantidad="1/4" medida="cucharadas"/>
+        </ingredientes>
+		<calorias kcal="605"/>
+        <pasos>
+			<paso numero="1" descripcion="Lo primero que debemos hacer es marinar la carne para que tome un buen sabor. Para eso mete en la licuadora una de las cebollas, uno de los pimentones y los ajos, unos 6 granos de pimienta y sal al gusto. Licua muy bien hasta que quede casi líquido. Si no puedes agrega un poco de agua o caldo de carne o de pollo para que sea más fácil."/>
+            <paso numero="2" descripcion="Pon los filetes en un envase. Añade sal y pimienta a cada uno por cada lado. Luego pon la mezcla que has hecho en la licuadora. Deja en la nevera por al menos 4 horas, pero toda la noche es mucho mejor. Calienta una plancha grande a fuego alto. Añade las 2 cucharadas de aceite y esparce por toda la superficie con cuidado. Cuando esté muy caliente por los filetes de carne a cocinar. No los voltees, ni aplastes, ni pinches. Queremos que se sellen para que los jugos de la carne quede adentro y estén divinos. Cuando hayan cambiado de color por el lado que los cocinas y estén ligeramente dorados, voltea. Cocina el mismo tiempo por el otro lado, que dependerá del tamaño del filete."/>
+			<paso numero="3" descripcion="Ahora, dependiendo de que tan cocidos te gusten, vuelve a voltear y deja más rato si lo quieres bien cocido. Para saber si están listo en bien cocido, toca la carne y debe sentirse como cuando aprietas el dedo gordo de la mano hacia la palma y tocas esa superficie que se forma, así debe estar. También puedes terminarlo de cocer en un horno a unos 175°C. Por otro lado corta las cebollas y los pimientos que te quedan, saca la carne y cocina ahí mismo para que tomen sabor de la carne. Deben quedar a medio cocer. Sirve los vegetales por encima de la carne."/>
+        </pasos>
+		<dificultad grado="2"/>
+		<tiempo minutos="30"/>
+        <elementos>
+			<elemento nombre="Bol"/>
+			<elemento nombre="Plancha"/>
+            <elemento nombre="Utensilios cocina"/>
+		</elementos>
+        <origen>https://www.vix.com/es/imj/gourmet/2010/08/13/carne-a-la-plancha</origen>
+	</receta>
+</recetas> 

@@ -1,0 +1,137 @@
+/* 0001*/
+html {
+  height: 100%;
+  background: white;
+  background-size: cover;
+}
+
+/* 0001*/
+h1{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+    background-image:  url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+
+/*0100*/
+#calculadora {
+  width: 355px;
+  height: auto;
+  margin: 2% auto;
+  padding: 2% 2% 1%;
+  background: #9dd2ea;
+  background: linear-gradient(#9dd2ea, #8bceec);
+  border-radius: 4px;
+  box-shadow: 0px 4px #009de4, 0px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+/*0021*/
+.top input.limpiar {
+  float: left;
+}
+/*0021*/
+.top input.pantalla {
+  height: 40px;
+  width: 212px;
+  padding: 0% 5%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+  font-size: 17px;
+  line-height: 40px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+/*0021*/ 
+.botones,
+.top {
+  overflow: hidden;
+}
+/*0011 y 0021*/
+.botones input,
+.top input.limpiar {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 66px;
+  height: 36px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  margin: 0px 7px 11px 1px;
+  color: #888;
+  line-height: 36px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+/*0021*/
+.botones input.operator {
+  background: #FFF0F5;
+  margin-right: 0;
+}
+/*0021*/
+.botones input.eval {
+  background: #f1ff92;
+  box-shadow: 0px 4px #9da853;
+  color: #888e5f;
+}
+/*0031*/
+.top input.limpiar {
+  background: #ff9fa8;
+  box-shadow: 0px 4px #ff7c87;
+  color: white;
+}
+
+/*0021*/
+.botones input:hover {
+  background: #9c89f6;
+  box-shadow: 0px 4px #6b54d3;
+  color: white;
+}
+/*0031*/
+.botones input.eval:hover {
+  background: #abb850;
+  box-shadow: 0px 4px #717a33;
+  color: #ffffff;
+}
+/*0031*/
+.top input.limpiar:hover {
+  background: #f68991;
+  box-shadow: 0px 4px #d3545d;
+  color: white;
+}
+
+/*0021*/
+.botones input:active {
+  box-shadow: 0px 0px #6b54d3;
+  top: 4px;
+}
+/*0031*/
+.botones input.eval:active {
+  box-shadow: 0px 0px #717a33;
+  top: 4px;
+}
+/*0031*/
+.top input.limpiar:active {
+  top: 4px;
+  box-shadow: 0px 0px #d3545d;
+}
+
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}

@@ -1,0 +1,3 @@
+El archivo index.html es una página que enlaza con las páginas de los
+ejercicios, básta con meterlo en C:\xampp\htdocs .
+Una vez lo tengamos entramos en http://localhost/php/ y nos aparecerá esta página.

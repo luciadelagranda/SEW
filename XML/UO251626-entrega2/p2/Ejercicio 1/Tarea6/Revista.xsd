@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="articulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="articulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="autor" />
+        <xs:element ref="titulo" />
+        <xs:element ref="resumen" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="paginas" />
+        <xs:element ref="year" />
+        <xs:element ref="volumen" />
+        <xs:element ref="revista" />
+        <xs:element ref="ee" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="keywords" />
+      </xs:sequence>
+      <xs:attribute name="mdate" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="paginas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pagina_inicio" />
+        <xs:element ref="pagina_final" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="keyword" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="nombre" type="xs:string" use="required" />
+          <xs:attribute name="apellido" type="xs:string" use="required" />
+          <xs:attribute name="correo" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string" />
+  <xs:element name="resumen" type="xs:string" />
+  <xs:element name="year" type="xs:string" />
+  <xs:element name="volumen" type="xs:string" />
+  <xs:element name="revista" type="xs:string" />
+  <xs:element name="ee" type="xs:string" />
+  <xs:element name="pagina_inicio" type="xs:string" />
+  <xs:element name="pagina_final" type="xs:string" />
+  <xs:element name="keyword" type="xs:string" />
+</xs:schema>

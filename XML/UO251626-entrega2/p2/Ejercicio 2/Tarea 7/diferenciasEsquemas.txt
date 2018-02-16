@@ -1,0 +1,11 @@
+Las principales diferencias del esquema hecho a mano y el generado con el Visual Studio 2017 es 
+que el generado marca todas las etiquetas como de tipo String, cuando no todas lo son. En el
+esquema hecho a mano se puede ver como algunas son de tipo int.
+
+			GENERADO 								    		 ||  				A MANO
+
+<xs:attribute name="cantidad" type="xs:string" use="required" /> || <xs:attribute name="cantidad" type="xs:int" use="required" />
+<xs:attribute name="grado" type="xs:string" use="required" /> 	 || <xs:attribute name="grado" type="xs:int" use="required" />
+<xs:attribute name="minutos" type="xs:string" use="required" />  || <xs:attribute name="minutos" type="xs:int" use="required" />
+ <xs:attribute name="numero" type="xs:string" use="required" />  ||  <xs:attribute name="numero" type="xs:int" use="required" />
+ <xs:attribute name="kcal" type="xs:string" use="required" />    || <xs:attribute name="kcal" type="xs:int" use="required" />

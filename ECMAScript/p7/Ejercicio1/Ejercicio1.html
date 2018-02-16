@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 1 - p7</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="Ejercicio1.css"/>
+<script src="Ejercicio1.js"></script>
+</head>
+<body>
+    
+<div id="h1">
+<h1 class="titulo">EJERCICIO 1 - PRACTICA 7</h1>
+<h1 class="appendH1">COPIA-EJERCICIO 1 - PRACTICA 7</h1>
+<input type="button"  Value="Ocultar titulo" onclick="objeto.ocultar('.titulo')" />
+<input type="button"  Value="Mostrar titulo" onclick="objeto.mostrar('.titulo')"/>
+<input type="button" value="Añadir h1" onclick="objeto.añadir('.appendH1')"/>
+<input type="button" value="Eliminar los elementos copia" onclick="objeto.eliminar('.appendH1')"/>
+<input type="button" value="Eliminar el elemento principal" onclick="objeto.eliminar('.titulo')"/>
+</div>
+    
+<div id="h2">
+<h2 class="h2">Este es un h2 que se ocultará y se mostrará según el botón pulsado.</h2>
+<h2 class="appendH2">COPIA-Este es un h2 que se ocultará y se mostrará según el botón pulsado.</h2>
+<input type="button"  Value="Ocultar h2" onclick="objeto.ocultar('.h2')" />
+<input type="button"  Value="Mostrar h2" onclick="objeto.mostrar('.h2')"/> 
+<input type="button" Value="Añadir h2" onclick="objeto.añadir('.appendH2')"/>
+<input type="button" value="Eliminar los elementos copia" onclick="objeto.eliminar('.appendH2')"/>
+<input type="button" value="Eliminar el elemento principal" onclick="objeto.eliminar('.h2')"/>
+    </div>
+    
+<div id="h3">
+<h3 class="h3">Este es un h3 que se ocultará y se mostrará según el botón pulsado.</h3>
+<h3 class="appendH3">COPIA-Este es un h3 que se ocultará y se mostrará según el botón pulsado.</h3>
+<input type="button"  Value="Ocultar h3" onclick="objeto.ocultar('.h3')" />
+<input type="button"  Value="Mostrar h3" onclick="objeto.mostrar('.h3')"/>
+<input type="button" Value="Añadir h3" onclick="objeto.añadir('.appendH3')"/>
+<input type="button" value="Eliminar los elementos copia" onclick="objeto.eliminar('.appendH3')"/>
+<input type="button" value="Eliminar el elemento principal" onclick="objeto.eliminar('.h3')"/>
+    </div>
+
+<div id="p">
+<p class="parrafo">Esto es un párrafo</p>
+<p class="appendParrafo">COPIA-Esto es un párrafo</p>
+<input type="button"  Value="Ocultar parrafo" onclick="objeto.ocultar('.parrafo')" />
+<input type="button"  Value="Mostrar parrafo" onclick="objeto.mostrar('.parrafo')"/>
+<input type="button" Value="Añadir parrafo" onclick="objeto.añadir('.appendParrafo')"/>
+<input type="button" value="Eliminar los elementos copia" onclick="objeto.eliminar('.appendParrafo')"/>
+<input type="button" value="Eliminar el elemento principal" onclick="objeto.eliminar('.parrafo')"/>
+    </div> 
+
+<div id="general">
+<h2>RECORRIENDO EL ARBOL DOM</h2>
+<input type="button"  Value="RECORRER ARBOL DOM" onclick="objeto.recorrerDOM()" />
+
+<h2>MODIFICAR ELEMENTOS</h2>
+<input type="button"  Value="Cambiar de color" onclick="objeto.cambiarColor()" />
+    </div>
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+
+</body>
+</html>

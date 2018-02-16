@@ -1,0 +1,23 @@
+Lenguaje de programación : Java
+Versión del compilador: JavaSE-1.8
+
+El archivo utilizado para ello se encuentra dentro de Tarea1 (Recetas.xml), consta de un conjunto
+de recetas con distintos atributos, entre ellos calorias y grado de dificultad de uso (1,2 ó 3).
+Estas recetas pueden ser filtradas por esos dos atributos.
+
+Este filtrador te pide por consola un número de calorías máximas que quieres en la receta
+y el grado de dificultad de la misma.
+
+1->Fácil
+2->Medio
+3->Dificil
+
+En funcion a las calorias elegidas y al grado de dificultad te genera un
+xml con las recetas que cumplen las condiciones pedidas.
+
+Basta con ejecutar el jar y por consola se te preguntará por las variables.
+
+El archivo recetas.xml generado es una prueba con grado=1 y kcal=4 y solo existe una receta con esos datos "Palmeritas de hojaldre".
+
+
+He juntado el ejercicio 3 y 4 ya que parte de la entrada de un xml y genera otro xml.

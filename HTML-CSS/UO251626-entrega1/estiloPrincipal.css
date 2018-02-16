@@ -1,0 +1,171 @@
+body{
+    background-color: #FAFAFA;
+}
+
+
+/* especificidad: 001 */
+h1 {
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+}
+
+/* especificidad: 001 */
+h1 img{
+    display:block;
+    width: 160px;
+    height: 200px;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px
+    
+}
+
+h1:nth-child(1){
+    padding-bottom: 12px;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* especificidad: 011 */
+section:nth-child(1){
+    background-image:  url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+    border-top-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color:white;
+    
+}
+
+/* especificidad: 011 */
+section:nth-child(3){
+    background-color:#E8E8EF;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-bottom: 10px;
+}
+
+/* especificidad:011 */
+a:link{
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+/* especificidad:011 */
+a:visited{
+    color: #0099E2;
+}
+
+/* especificidad: 011 */
+a:hover{
+    text-decoration: none;
+    color: #138691;
+    font-weight: bold;
+}
+
+/*especificidad: 001*/
+nav a{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #C6BFB9;
+    font: 20px Arial, sans-serif;
+}
+
+/*especificidad: 001*/
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav a:nth-child(3){
+    border-right: none;
+}
+
+/*especificidad: 001*/
+audio{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+
+h2{
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    text-shadow: 3px 0px 18px #0099E2;
+}
+
+ul,li{
+    text-align: center;
+    font: 23px Arial, sans-serif;
+    list-style: none;
+}
+
+dt{
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font: 25px Arial, sans-serif;
+    text-shadow: 1px 1px 0px darkgray;
+    padding-left: 10px;
+}
+
+dd{
+    color: darkgrey;
+    font: 23px Arial,sans-serif;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px darkgray;
+}
+
+/*especificidad: 001*/
+video{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+p{
+  font: 17px Arial, sans-serif;
+  color: gray;
+  padding-left: 10px;
+}
+
+
+/*especificidad: 011*/
+p:nth-child(1){
+    padding-top: 45px
+}
+
+/*especificidad: 011*/
+p:nth-child(9){
+    padding-bottom: 25px
+}
+
+p img{
+    display:block;
+    width: 70%;
+    margin: 10px auto;
+}

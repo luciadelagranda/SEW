@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 2 - tarea 6
+    </title>
+    <meta charset="utf-8"/>
+    
+    <meta name="author" content="Lucía de la Granda" /> 
+    
+    <link href="Ejercicio2.css" rel="stylesheet">
+</head>
+    
+<body>
+    
+    <h1>Insercción de datos en tablas</h1>
+
+            <nav>
+            <a href="Ejercicio2.html" tabindex="1" accesskey="P">Gestión de la base</a>
+            <a href="CreacionBase.php" tabindex="2" accesskey="B">Creación de la base</a>
+            <a href="CreacionTablas.php" tabindex="3" accesskey="T"> Creación de las tablas</a>
+            <a href="FormularioInsertar.html" tabindex="4" accesskey="I">Insertar Datos</a>
+            <a href="FormularioBuscarDatos.html" tabindex="5" accesskey="D">Buscar Datos</a>
+            <a href="FromularioBorrarDatos.html" tabindex="6" accesskey="O">Borrar Datos</a>
+            </nav>
+            
+
+        <form method="post" action="InsertarDatosCarrera.php">
+                Nombre carrera:<input type="text" name="nombre"> <br>
+                Duración: <input type="text" name="duracion"> <br>
+                <input type="submit" value="Insertar Datos">
+        </form>
+		
+		<form method="post" action="InsertarDatosAsignatura.php">
+                Nombre asignatura:<input type="text" name="NOMASIG"> <br>
+                Curso: <input type="text" name="CURSO"> <br>
+                Id carrera pertenece: <input type="text" name="idCarrera"> <br>
+                <input type="submit" value="Insertar Datos">
+        </form>
+	
+	<footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+             alt="HTML5 Válido!" height="64" width="63"/></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+        </a>
+    </footer>
+
+</body>
+</html>

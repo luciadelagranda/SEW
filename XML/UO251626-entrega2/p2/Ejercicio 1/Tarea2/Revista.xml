@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos SYSTEM "Revista.dtd">
+<articulos>
+<articulo mdate="02/10/2017">
+<autor nombre="Lucía" apellido="Granda" correo="UO251626@uniovi.es"></autor>
+<titulo>LA NUEVA VOGUE </titulo>
+<resumen>Es una artículo que trata las nuevas tendencias en la moda española </resumen>
+<paginas>
+    <pagina_inicio>1</pagina_inicio>
+    <pagina_final>10</pagina_final>
+</paginas>
+<year>2012</year>
+<volumen>1</volumen>
+<revista>VOGUE ESPAÑA</revista>
+<ee>http://www.vogue.es/</ee>
+<keywords>
+    <keyword>Vogue</keyword>
+    <keyword>moda</keyword>
+    <keyword>nueva</keyword>
+    <keyword>España</keyword>
+    <keyword>modelos</keyword>
+    <keyword>tendencias</keyword>
+</keywords>
+</articulo>
+
+<articulo mdate="02/10/2017">
+<autor nombre="Lili" apellido="Hadit" correo="UO259826@uniovi.es"></autor>
+<titulo>LOS PROS Y CONTRAS DE LA MODA ESPAÑOLA</titulo>
+<resumen>Artículo que trata las modas mas bonitas y las mas feas de la moda española </resumen>
+<paginas>
+    <pagina_inicio>11</pagina_inicio>
+    <pagina_final>15</pagina_final>
+</paginas>
+<year>2013</year>
+<volumen>1</volumen>
+<revista>VOGUE ESPAÑA</revista>
+<ee>http://www.vogue.es/</ee>
+<keywords>
+    <keyword>Vogue</keyword>
+    <keyword>moda</keyword>
+    <keyword>nueva</keyword>
+    <keyword>España</keyword>
+    <keyword>modelos</keyword>
+    <keyword>tendencias</keyword>
+    <keyword>pros</keyword>
+    <keyword>contras</keyword>
+</keywords>
+</articulo>
+
+<articulo mdate="02/10/2017">
+<autor nombre="Lucía" apellido="Granda" correo="UO251626@uniovi.es"></autor>
+<titulo>LOS VESTIDOS DE LAS CELEBRITIS</titulo>
+<resumen>Artículo que revisa los vestidos de las famosas </resumen>
+<paginas>
+    <pagina_inicio>16</pagina_inicio>
+    <pagina_final>20</pagina_final>
+</paginas>
+<year>2014</year>
+<volumen>150</volumen>
+<revista>CUORE ESPAÑA</revista>
+<ee>http://www.revistacuore.com//</ee>
+    <keywords>
+    <keyword>famosas</keyword>
+    <keyword>moda</keyword>
+    <keyword>Cuore</keyword>
+    <keyword>España</keyword>
+    <keyword>modelos</keyword>
+    <keyword>tendencias</keyword>
+    <keyword>vestidos</keyword>
+    <keyword>celebritis</keyword>
+</keywords>
+</articulo>
+    
+<articulo mdate="02/10/2017">
+<autor nombre="Pedro" apellido="Garcia" correo="UO254513@uniovi.es"></autor>
+<titulo>LAS INFLUENCERS MÁS DE MODA</titulo>
+<resumen>Artículo que describe a las youtubers, instagramers, bloggers que están en la cima de los influencers actualmente. </resumen>
+<paginas>
+    <pagina_inicio>21</pagina_inicio>
+    <pagina_final>31</pagina_final>
+</paginas>
+<year>2013</year>
+<volumen>10</volumen>
+<revista>EL CONFIDENCIAL</revista>
+<ee>https://www.elconfidencial.com</ee>
+ <keywords>
+    <keyword>famosas</keyword>
+    <keyword>moda</keyword>
+    <keyword>Confidencial</keyword>
+    <keyword>España</keyword>
+    <keyword>youtubers</keyword>
+    <keyword>instagramers</keyword>
+    <keyword>tendencias</keyword>
+    <keyword>bloggers</keyword>
+</keywords>
+</articulo>
+
+</articulos>
+

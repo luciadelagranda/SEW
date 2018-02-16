@@ -1,0 +1,2 @@
+Como en el anterior ejercicio se pedía general el árbol del xsl y en este del xsd, al no saber
+si era una errata he optado por generar los dos.

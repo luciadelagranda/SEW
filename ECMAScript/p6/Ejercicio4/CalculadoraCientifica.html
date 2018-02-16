@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora cienntífica</title>
+<link rel="stylesheet" href="CalculadoraCientifica.css"/>
+<script src="CalculadoraCientifica.js"></script>
+
+</head>
+<body>
+    <h1>Calculadora Científica</h1>
+<div id="calculadora">
+  <div class="top">
+    <input type="button" value="C" class="limpiar" onclick="calculadora.limpiarPantalla()">
+    <input type="Text" id="pantalla" class="pantalla" readonly="readonly">
+  </div>
+
+  <div class="botones">
+    <input type="button" value="mc" onclick="calculadora.limpiarMemoria()" class="operator">
+    <input type="button" value="mr" onclick="calculadora.mostrarMemoria()" class="operator">
+    <input type="button" value="ms" onclick="calculadora.guardarMemoria()" class="operator">
+    <input type="button" value="m-" onclick="calculadora.restarMemoria()" class="operator">
+    <input type="button" value="m+" onclick="calculadora.sumarMemoria()" class="operator">
+      
+    <input type="button" value="x^2" onclick="calculadora.calcularPotenciaDos()" class="operator">
+    <input type="button" value="x^y" onclick="calculadora.pintarValor('**')" class="operator">
+    <input type="button" value="sin" onclick="calculadora.calcularSeno()" class="operator">
+    <input type="button" value="cos" onclick="calculadora.calcularCoseno()" class="operator">
+    <input type="button" value="tan" onclick="calculadora.calcularTangente()" class="operator">
+      
+    <input type="button" value="√" onclick="calculadora.calcularRaiz()" class="operator">
+    <input type="button" value="10^x" onclick="calculadora.pintarValor('10**')" class="operator">
+    <input type="button" value="log" onclick="calculadora.calcularLog()" class="operator">
+    <input type="button" value="Exp" onclick="calculadora.pintarValor('*10**')" class="operator">
+    <input type="button" value="Mod" onclick="calculadora.pintarValor('%')" class="operator">
+        
+    <input type="button" value="π" onclick="calculadora.pintarPi()" class="operator">
+    <input type="button" value="±" onclick="calculadora.cambioSigno()" class="operator">
+    <input type="button" value="n!" onclick="calculadora.calcularFactorial()" class="operator">
+    <input type="button" value="(" onclick="calculadora.pintarValor(value)" class="operator">
+    <input type="button" value=")" onclick="calculadora.pintarValor(value)" class="operator">
+    
+    <input type="button" value="7" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="8" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="9" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="+" class="operator" onclick="calculadora.pintarValor(value)">
+      
+    <input type="button" value="4" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="5" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="6" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="-" class="operator" onclick="calculadora.pintarValor(value)">
+      
+    <input type="button" value="1" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="2" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="3" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="/" class="operator" onclick="calculadora.pintarValor(value)">
+      
+    <input type="button" value="0" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="." onclick="calculadora.pintarValor(value)">
+    <input type="button" value="=" class="eval" onclick="calculadora.calcular()">
+    <input type="button" value="*" class="operator" onclick="calculadora.pintarValor(value)">
+      
+  </div>
+</div>
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>

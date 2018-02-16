@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 5 - p6</title>
+<link rel="stylesheet" href="Encuesta.css"/>
+<script src="Encuesta.js"></script>
+
+</head>
+<body>
+    <h1>Encuesta sobre usabilidad</h1>
+<form name="f">
+<h2>Unas preguntas sobre la prueba realizada:</h2>
+<div id="usabilidad">
+    <h3>¿Del 1 al 10 cómo de comodo te encontraste haciendo la prueba?</h3>
+    <select name="puntacionUsabilidad" id="puntacionUsabilidad">
+            <option SELECTED>0</option>
+            <option >1</option>
+            <option >2</option>
+            <option >3</option>
+            <option >4</option>
+            <option >5</option>
+            <option >6</option>
+            <option >7</option>
+            <option >8</option>
+            <option >9</option>
+            <option >10</option>
+            </select>
+    <h3>¿Algún aspecto a mejorar?</h3>
+    <textarea  id ="mejoras" rows="5" cols="40"></textarea>
+</div>
+
+<h2>Introduce tus datos:</h2>
+<div id="datos">
+        *Nombre:<input type="text" id="nombre" name="Nombre" class="datosObligatorios" required >
+        *Apellidos:<input type="text" id="apellidos" name="Apellidos" class="datosObligatorios" required >
+        *Edad:<input type="text" id="edad" name="Edad" class="datosObligatorios" required pattern="[1-9]{1}||[1-9]{2}||[1-9]{3}">
+       *Email:<input type="email" id="email" name="email" class="datosObligatorios" required >
+        <button type="submit" value="Submit" onclick="formulario.enviar()">Enviar</button>
+        <button type="reset" value="Limpiar">Limpiar
+        </button>
+</div>
+    </form>
+    
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/*0001*/
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+/*0001*/
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #B0B5B2;
+  border-radius: 8px;
+}
+
+/* 0001*/
+h1{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-size: 225px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    font: 50px Berlin Sans FB, sans-serif;
+    background-image:  url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+/*0001*/
+h2{
+  color: #F1E4F4;
+}
+/*0011, 0011 y 0001*/
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  padding: 15px;
+  width: 90%;
+  background-color: #F1E4F4;
+  color: gray;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+/*0011*/
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+/*0001*/
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+/*0001*/
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #FF98DD;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #FF98DD;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+/*0002*/
+table td{
+   padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/*0001*/
+footer{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #464C4C;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://unioviedo-my.sharepoint.com/personal/uo251626_uniovi_es/_layouts/15/guestaccess.aspx?docid=06dcf1084436041d8a802efa2860b679a&authkey=ARhj3gXDx4ivH_eS6f5JNLo&e=483fc7b4515c490cada740717cfccaf7");
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+    
+}

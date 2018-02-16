@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicio 6-p6</title>
+
+<script src="Ejercicio6.js"></script>
+<link rel="stylesheet" href="Ejercicio6.css"/>
+</head>
+<body>
+
+<form name="response">
+<h1>Juego de reflejos</h1>
+<p>INSTRUCCIONES:<br>Una vez pulsado el start, en un tiempo random, una de las tres franjas se rellenará de color rosa. el juego consiste en tardar lo menos posible en pulsar sobre la franja que se rellene. Para empezar simplemente hay que pulsar START.
+</p>
+<input type="button" value="  ¡START!  " onClick="juego.start()">
+</form>        
+
+        
+<input type="text" id="aux" value="-1" hidden>
+<div id="franja1" onClick="juego.stopTest('1')"></div>
+<div id="franja2" onClick="juego.stopTest('2')"></div>
+<div id="franja3" onClick="juego.stopTest('3')"></div>
+    
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+    </body>
+</html>

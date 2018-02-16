@@ -1,0 +1,24 @@
+En este ejercicio junto el ejercicio 6 (ajax) con el ejercicio 7 (api HTML5).
+
+He usado dos apis, la api de instagram y la api de geolocalización de Google.
+
+Para usar la api de instagram he tenido que crear un nuevo proyecto desde en la sigueinte web 
+- https://www.instagram.com/developer/
+
+Para ello tuve que iniciar sesion con mi usuario de instagram (@luciadelagranda) que es el que usaré para sacar datos en el resto de la práctica, ya que instagrám solo devuelve datos particulares (como las fotos) del perfil si este es el tuyo propio.
+Si se quiere probar con un instagram propio basta con entrar a esa web, registrar una nueva aplicación y conseguir una token key, que es única para cada 
+usuario.
+En este caso, como ya dije, usaremos la mia:
+
+-14633526.f89ff53.838ca4fb599a41289de3c615b6003297
+
+Instagram nos proporciona una serie de datos sobre el perfil y las fotos, yo he consultado datos sobre las 10 fotos más recientes y sobre el perfil en general,
+basanndome en esas 10 fotos he sacado cual era la que más likes tenía y sobre esa he sacado dónde se realizó la foto y he creado un mapa con un marcador
+que indica en que punto fue hecha la foto. Otras de las cosas que he hecho es coger el primer hashtag que sale en la foto
+y sobre ese lanzar otra consulta a instagram que me devuelve las fotos más recientes subidas con ese hashtag.
+
+Para lanzar la aplicación basta con pulsar el botón que pone "Cargar Programa" y aparecerán todos los datos antes mencionados.
+
+Si pulsas sobre el nombre del perfil, en este caso "Lucia de la Granda" es un link que lleva directamente a la foto y en consecuencia
+a mi perfil de instagram, esto también está sacado de los datos que nos proporciona la consulta lanzada a instagram por lo que
+funcionará para cualquiero otro instagram.

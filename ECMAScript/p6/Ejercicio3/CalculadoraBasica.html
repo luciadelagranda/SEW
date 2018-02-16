@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 3-p6</title>
+<link rel="stylesheet" href="CalculadoraBasica.css"/>
+<script src="CalculadoraBasica.js"></script>
+
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+<div id="calculadora">
+  <div class="top">
+    <input type="button" value="C" class="limpiar" onclick="calculadora.limpiarPantalla()">
+    <input type="text" id="pantalla" class="pantalla">
+  </div>
+
+  <div class="botones">
+    <input type="button" value="mc" onclick="calculadora.limpiarMemoria()">
+    <input type="button" value="mr" onclick="calculadora.mostrarMemoria()">
+    <input type="button" value="m-" onclick="calculadora.restarMemoria()">
+    <input type="button" value="m+" onclick="calculadora.sumarMemoria()">
+    <input type="button" value="7" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="8" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="9" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="+" class="operator" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="4" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="5" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="6" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="-" class="operator" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="1" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="2" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="3" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="/" class="operator" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="0" onclick="calculadora.pintarValor(value)">
+    <input type="button" value="." onclick="calculadora.pintarValor(value)">
+    <input type="button" value="=" class="eval" onclick="calculadora.calcular()">
+    <input type="button" value="*" class="operator" onclick="calculadora.pintarValor(value)">
+  </div>
+</div>
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>

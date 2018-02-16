@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 5 - p6</title>
+<link rel="stylesheet" href="Encuesta.css"/>
+<script src="Encuesta.js"></script>
+
+</head>
+<body>
+    <h1>Encuesta sobre calculadora</h1>
+<form name="f">
+<h2>Unas preguntas sobre la funcionalidad de la calculadora:</h2>
+<div id="funcionalidad">
+<table>
+    <tr><td>1.¿Crees que las funciones básicas de la calculadora funcionan bien?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input type="radio" id="si" class="datosObligatorios" name="Fpregunta1" value="SI"></td>
+        <td>No.<input type="radio" id="no" class="datosObligatorios" CHECKED name="Fpregunta1" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr><td>2.¿Crees que las funciones avanzadas de la calculadora funcionan bien?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input value="SI" type="radio" class="datosObligatorios" name="Fpregunta2"></td>
+        <td>No.<input type="radio" class="datosObligatorios" CHECKED name="Fpregunta2" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr><td>3.¿Crees que falta alguna funcionalidad?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input value="SI" type="radio" class="datosObligatorios" name="Fpregunta3"></td>
+        <td>No.<input type="radio" class="datosObligatorios" CHECKED name="Fpregunta3" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr><td>En caso afirmativo, ¿cuál?:</td></tr>
+    <tr><td><textarea  id ="funcionalidadFalta" rows="5" cols="40"></textarea></td></tr>
+   
+    <tr>
+        <td>4.Del 0 al 10, ¿qué puntuación le darías a la funcionalidad de la calculadora?</td></tr>
+    <tr><td><table>
+        <tr><td><select name="puntuacionFuncionalidad" id="puntuacionFuncionalidad">
+            <option SELECTED>0</option>
+            <option >1</option>
+            <option >2</option>
+            <option >3</option>
+            <option >4</option>
+            <option >5</option>
+            <option >6</option>
+            <option >7</option>
+            <option >8</option>
+            <option >9</option>
+            <option >10</option>
+            </select></td></tr>
+        </table></td></tr>
+    </table>
+</div>
+
+<h2>Unas preguntas sobre la usabilidad de la calculadora:</h2>
+<div id="usabilidad">
+<table>
+    <tr><td>1.¿Crees que la calculadora es fácil de usar?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input value="SI" type="radio" class="datosObligatorios" name="Upregunta1"></td>
+        <td>No.<input type="radio" class="datosObligatorios" CHECKED name="Upregunta1" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr><td>2.¿Crees que la calculadora es intuitiva?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input value="SI" type="radio" class="datosObligatorios" name="Upregunta2"></td>
+        <td>No.<input type="radio" class="datosObligatorios" CHECKED name="Upregunta2" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr><td>3.¿Crees que el aspecto de la calculadora es agradable?</td></tr>
+    <tr><td><table>
+    <tr>
+        <td>Sí.<input value="SI" type="radio" class="datosObligatorios" name="Upregunta3"></td>
+        <td>No.<input type="radio" class="datosObligatorios" CHECKED name="Upregunta3" value="NO"></td>
+    </tr>
+        </table></td></tr>
+    <tr>
+        <td>4.Del 0 al 10, ¿qué puntuación le darías a la usabilidad de la calculadora?</td></tr>
+    <tr><td><table>
+        <tr><td><select name="puntacionUsabilidad" id="puntacionUsabilidad">
+            <option SELECTED>0</option>
+            <option >1</option>
+            <option >2</option>
+            <option >3</option>
+            <option >4</option>
+            <option >5</option>
+            <option >6</option>
+            <option >7</option>
+            <option >8</option>
+            <option >9</option>
+            <option >10</option>
+            </select></td></tr>
+        </table></td></tr>
+    </table>
+</div>
+    
+<h2>Observaciones:</h2>
+<div id="general">
+<table>
+    <tr>
+        <td>1.Del 0 al 10, ¿qué puntuación le darías a la calculadora en general?</td></tr>
+        <tr><td><table>
+        <tr><td><select name="puntuacionGeneral" id="puntuacionGeneral">
+            <option SELECTED>0</option>
+            <option >1</option>
+            <option >2</option>
+            <option >3</option>
+            <option >4</option>
+            <option >5</option>
+            <option >6</option>
+            <option >7</option>
+            <option >8</option>
+            <option >9</option>
+            <option >10</option>
+            </select></td></tr>
+            </table></td></tr>
+    <tr><td>Propuesta de mejora:</td></tr>
+    <tr><td><textarea id="observaciones" rows="5" cols="50"></textarea></td></tr>
+    </table>
+</div>
+
+
+<h2>Introduce tus datos:</h2>
+<div id="datos">
+    <table>
+        <tr><td>*DNI:<input type="text" id="dni" name="dni" class="datosObligatorios" required ></td></tr>
+        <tr><td>*Nombre:<input type="text" id="nombre" name="Nombre" class="datosObligatorios" required ></td></tr>
+        <tr><td>*Apellidos:<input type="text" id="apellidos" name="Apellidos" class="datosObligatorios" required ></td></tr>
+        <tr><td>*Edad:<input type="text" id="edad" name="Edad" class="datosObligatorios" required pattern="[1-9]{1}||[1-9]{2}||[1-9]{3}"></td></tr>
+        <tr><td>*Email:<input type="email" id="email" name="email" class="datosObligatorios" required ></td></tr>
+        <tr><td>*Sexo:</td></tr>
+        <tr><td><table>
+        <tr>
+            <td>H<input type="radio" id="masculino" class="datosObligatorios" name="sexo" value="Hombre"></td>
+            <td>M<input type="radio" id="femenino" class="datosObligatorios" CHECKED name="sexo" value="Mujer"></td>
+            <td>Otro<input type="radio" id="otro" class="datosObligatorios" name="sexo"
+            value="Otro"></td>
+        </tr>
+            </table></td></tr>
+        
+        <tr><td><input type="checkbox" id="condiciones" class="datosObligatorios" name="terminos">Acepto los términos y condiciones.</td></tr>
+        
+        <tr><td><button type="submit" value="Submit" onclick="formulario.enviar()">Enviar</button></td>
+            
+        <tr><td><button type="reset" value="Limpiar">Limpiar
+        </button></td></tr>
+        
+    </table>
+</div>
+    </form>
+    
+    
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+         alt="HTML5 Válido!" height="64" width="63"/></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</footer>
+</body>
+</html>
